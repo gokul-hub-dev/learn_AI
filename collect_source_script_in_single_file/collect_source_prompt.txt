@@ -1,0 +1,20 @@
+I am providing 4 consolidated files from a C/C++ project:
+* header_files.h → all .h files
+* c_source_file.c → all .c files
+* cpp_source_file.cpp → all .cpp files
+* script_files.sh → all .sh files
+Each original file starts with:
+Path:<original file path>
+The Path: line is only a marker added by my script. It is **not part of the original file content**.
+Treat each Path: as the start of a new original file, and treat the content until the next Path: as that file's content.
+Use these paths to reconstruct the original project structure and understand the relationships between source files, headers, scripts, includes, functions, classes, variables, and dependencies.
+When answering my questions, always refer to the **original file path**, not the consolidated file name.
+
+First, parse all 4 files and check:
+* How many .h files/paths you found
+* How many .c files/paths you found
+* How many .cpp files/paths you found
+* How many .sh files/paths you found
+* The complete folder/directory structure reconstructed from all paths
+Show me these counts and the reconstructed folder structure first.
+Do not summarize or analyze the code/scripts yet. Wait for my next question.
